@@ -1,0 +1,2 @@
+# esp32-2424S012
+ESP32-2424S012C Playground
