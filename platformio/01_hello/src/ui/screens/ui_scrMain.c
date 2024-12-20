@@ -11,8 +11,8 @@ void ui_scrMain_screen_init(void)
     lv_obj_remove_flag(ui_scrMain, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
     ui_pnlMain = lv_obj_create(ui_scrMain);
-    lv_obj_set_width(ui_pnlMain, lv_pct(90));
-    lv_obj_set_height(ui_pnlMain, lv_pct(90));
+    lv_obj_set_width(ui_pnlMain, lv_pct(100));
+    lv_obj_set_height(ui_pnlMain, lv_pct(100));
     lv_obj_set_align(ui_pnlMain, LV_ALIGN_CENTER);
     lv_obj_remove_flag(ui_pnlMain, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 

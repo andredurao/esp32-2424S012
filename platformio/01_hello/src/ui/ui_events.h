@@ -10,7 +10,6 @@
 extern "C" {
 #endif
 
-void OnRotateClicked(lv_event_t * e);
 void OnAddOneClicked(lv_event_t * e);
 
 #ifdef __cplusplus

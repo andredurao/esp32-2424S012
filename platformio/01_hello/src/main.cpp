@@ -24,9 +24,6 @@ void setup()
     smartdisplay_init();
 
     __attribute__((unused)) auto disp = lv_disp_get_default();
-    // lv_disp_set_rotation(disp, LV_DISP_ROT_90);
-    // lv_disp_set_rotation(disp, LV_DISP_ROT_180);
-    // lv_disp_set_rotation(disp, LV_DISP_ROT_270);
 
     ui_init();
 }
@@ -54,29 +51,3 @@ void loop()
     // Update the UI
     lv_timer_handler();
 }
-
-
-// void setup()
-// {
-// #ifdef ARDUINO_USB_CDC_ON_BOOT
-//   delay(5000);
-// #endif
-//   Serial.begin(115200);
-//   Serial.setDebugOutput(true);
-
-//   smartdisplay_init();
-
-//   auto display = lv_display_get_default();
-// }
-
-// auto lv_last_tick = millis();
-
-// void loop()
-// {
-//   unsigned long now = millis();
-//   // Update the ticker
-//   lv_tick_inc(now - lv_last_tick);
-//   lv_last_tick = now;
-//   // Update the UI
-//   lv_timer_handler();
-// }
